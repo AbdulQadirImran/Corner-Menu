@@ -1,5 +1,7 @@
 let toggleBtn = document.getElementById("toggle-btn");
+
 let menuItems = document.querySelectorAll(".menu a");
+
 let menuActive = false;
 toggleBtn.addEventListener("click", () => {
   if (!menuActive) {
